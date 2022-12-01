@@ -1,0 +1,120 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 375px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3em 0.8em;
+    border-bottom: 1px solid lightgrey;
+    background: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.logo-img{
+    width: 150px;
+    margin-right: 1em;
+}
+
+.profile-img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+/* post */
+
+.post-container{
+    margin-bottom: 2em;
+}
+
+.post-user-container{
+    display: flex;
+    align-items: center;
+    padding: 0.6em;
+}
+
+.user-info{
+    margin-left: 0.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.user-name{
+    margin: 0;
+    font-size: 1rem;
+}
+
+.user-location{
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.post-img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* icons section */
+
+.icons-container{
+    max-width: 35%;
+    padding: 0.6em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.icon:hover,
+.icon:focus{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* comments section */
+
+.comments-container{
+    padding: 0 0.7em;
+}
+
+.likes,
+.comments{
+    font-size: 0.9rem;
+}
+
+.likes{
+    margin: 0.5em 0;
+    font-weight: 800;
+}
+
+.comments{
+    margin: 0;
+}
+
+.comment-user{
+    font-weight: bold;
+    margin-right: 0.5em;
+}
